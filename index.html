@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Genesis Generators Project</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Data Science Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#services">Goals</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#mvp">MVP</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#techstack">Tech</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#variables">Variables</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#portfolio">Graphs</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#machinelearning">ML</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      
+      
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Genesis Generators</div>
+                <div class="masthead-heading text-uppercase">Melanoma Tumor Size Prediction</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#about">Click Here to Learn More!</a>
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://cocalc2.ai-camp.dev/88ec9459-f6ad-40b0-b8b6-77b16b396c58/port/8000/">Click Here to Start Predicting</a>
+            </div>
+        </header>
+      
+      <!-- About-->
+      <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About our Project</h2>
+                    <h3 class="section-subheading text-muted">Welcome to our Project!</h3>
+                  <p class="text-muted">Today, melanoma remains the third most common type of skin cancer worldwide. As such, healthcare professionals seek to find a way to treat it as early as possible before it becomes fatal. In this project, we aim to utilize coding languages such as Python and HTML to predict the size of a melanoma tumor based upon its characteristics. It is our hope that our model can help healthcare professionals identify melanoma tumors as early as possible so that it can be treated with no further complications. </p>
+
+                </div>
+            </div>
+      </section>
+      
+           
+      
+        <!-- Services-->
+        <section class="page-section bg-light" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Goals</h2>
+                    <h3 class="section-subheading text-muted">What we aim to do with our project</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-1 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Discover what determines melanoma tumor size</h4>
+                        <p class="text-muted">Use graphics to determine how nine different factors affect the size of the tumor</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-2 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Train a machine learning model</h4>
+                        <p class="text-muted">Predicting the size of melanoma tumors using machine learning will be useful as there are different risks associated with different tumor sizes.
+</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-3 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Aid the Healthcare Industry</h4>
+                        <p class="text-muted">Create a simple, easy-to-use website that can detect patterns within different factors that determine the size of a melanoma tumor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!-- MVP-->
+      <section class="page-section" id="mvp">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">MVP</h2>
+                    <h3 class="section-subheading text-muted">Minimum Viable Product</h3>
+                  <p class="text-muted">In 3 weeks, our product will have graphs and charts of characteristics such as the damage size, exposed area, and tumor size of melanoma tumors, and our product will be able to make accurate predictions of the size of future melanoma tumors based on these characteristics.</p>
+                </div>
+            </div>
+      </section>
+      
+      
+      <!-- Tech Stack-->
+      <section class="page-section bg-light" id="techstack">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Tech Stack</h2>
+                    <h3 class="section-subheading text-muted">Tech we will need in order to create our project</h3>
+                  <p class="text-muted">This project will use HTML, CSS, JavaScript and other programming languages to provide a clean, easy to use, intuitive GUI to interface with a Python backbone. We also used Pandas for data management, Numpy for mathematical operations, SKLearn to make the machine learning model, and Plotly and Seaborn for graphing our data.</p>
+                </div>
+            </div>
+      </section>
+
+       <!--WHAT OUR VARIABLES MEAN-->
+      <section class="page-section" id="variables">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Variables</h2>
+                    <h3 class="section-subheading text-muted">What each of our variables mean</h3>
+                         <table style= "color: #808080; margin-left:17.5%; margin-right:auto%; width:90%">
+  <tr>
+    <th>Attributes</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>mass_npea</td>
+    <td>the mass of the area understudy for melanoma tumor</td>
+  </tr>
+  <tr>
+    <td>size_npear</td>
+    <td>the size of the area understudy for melanoma tumor</td>
+  </tr>
+  <tr>
+    <td>malign_ratio</td>
+    <td>ratio of normal to malign surface under-study</td>
+  </tr>
+  <tr>
+    <td>damage_size</td>
+    <td>unrecoverable area of skin damaged by the tumor</td>
+  </tr>
+  <tr>
+    <td>exposed_area</td>
+    <td>total area exposed to the tumor</td>
+  </tr>
+  <tr>
+    <td>std_dev_malign</td>
+    <td>standard deviation of malign skin measurements</td>
+  </tr>
+  <tr>
+    <td>err_malign</td>
+    <td>error in malign skin measurements</td>
+  </tr>
+  <tr>
+    <td>malign_penalty</td>
+    <td>penalty applied due to measurement error in the lab</td>
+  </tr>
+  <tr>
+    <td>damage_ratio</td>
+    <td>the ratio of damage to total spread on the skin</td>
+  </tr>
+  <tr>
+    <td>tumor_size</td>
+    <td>size of melanoma_tumor</td>
+  </tr>
+</table>
+                </div>
+            </div>
+      </section>
+      
+        <!-- Graphs-->
+        <section class="page-section bg-light" id="portfolio"> <!-- Id must be portfolio for styling -->
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Graphs</h2>
+                    <h3 class="section-subheading text-muted">Our data simplified</h3>
+                </div>
+                <div class="row">
+                  <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                              
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (4).png" alt="..." /><div style='text-align:right'></div>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Scatter Matrix</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (5).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Scatter Plot</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (6).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Density Heatmap</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (11).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">3D Model</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (7).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Violin Chart</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Parallel Coordinate Chart</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+          <div class="container cent-txt">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 7-->
+                        <div class="portfolio-item" style= "text-align:center">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (8).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Correlation Heatmap</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                  <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 8-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/scaled/newplot (2).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Density Contour</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+        </section>
+      
+        <!-- About-->
+        <section class="page-section" id="process">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">The Process</h2>
+                    <h3 class="section-subheading text-muted">How this project came to be</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.wixstatic.com/media/12b467_a4ceef0f338c41c7885cb083ea36a00f~mv2_d_1742_1743_s_2.png/v1/fill/w_216,h_224,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ai%20camp%20logo.png" alt="AI Camp Logo" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Week 1</h4>
+                                <h4 class="subheading">Finding a Dataset</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">We met one another for the first time. Our mentor, Harsh Harwani, revisited the basics of Python, the coding language used as the foundation of our models. We also were introduced to Data Science and the process of Data Analysis.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/Sample_Graph.png" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Week 2</h4>
+                                <h4 class="subheading">Graphs and Models</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">We began exploring our dataset, making graphs and models. Then we cleaned our data, preparing it for machine learning, after which we set to narrowing down a few machine learning models and training them, running predictions and fine tuning our models till we were satisfied with the accuracy of the models.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle" src="https://www.innofied.com/wp-content/uploads/2017/07/procuct-development.png" alt="..." height="100%"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Week 3</h4>
+                                <h4 class="subheading">Front End Development</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Having the knowledge we needed to create our website, we immediately set to work. We began by choosing our template for our website and adjusting the text accordingly. We also added our data and graphs to our website and polished it into the product that it is today.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+      
+      <!-- Machine Learning-->
+      <section class="page-section bg-light" id="machinelearning">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Machine Learning</h2>
+                  <h3 class="section-subheading text-muted">Our machine learning models</h3>
+                  <h4 class="section-heading text-muted">Regression vs. Classification</h4>
+                  <p class= "text-muted">Since this problem is trying to predict a value rather than classify an input, it is classified as a regression problem. Since the value we are trying to predict, tumor size, is continuous, this project will be solving a regression problem.</p>
+                  <br>
+                    <h4  class="section-heading text-muted">Supervised vs. Unsupervised</h4>
+                  <p class= "text-muted">Because we fed our model data that was already labeled, this problem is an example of supervised machine learning.</p>
+                  <br>
+              </div>
+        </div>
+      </section>
+                 <section class="page-section" id="mlmodels">
+            <div class="container">
+                <div class="text-center">
+                 <h4 style= "color:black;">Our Top 3 Machine Learning Models</h4>
+                  <h3 class="section-subheading text-muted">We tested out five models (K Nearest Neighbors, Support Vector Regression, Decision Tree Regressor, Linear Ridge Regression, and Gradient Boost Regressor) and found these 3 to be the best for our data.</h3>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-1 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Linear Ridge Regression</h4>
+                        <p class="text-muted">Ridge regression is a method of estimating the coefficients of multiple-regression models. Ridge regression is used when you have data in which multiple independent variables are correlated</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-2 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Gradient Boosting Regressor</h4>
+                        <p class="text-muted">Gradient Booster Regressor finds the difference between the current prediction and known target value.Trains a weak model to correlate to that target value.
+</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-3 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Decision Tree Regressor</h4>
+                        <p class="text-muted">The Decision Tree Regressor shapes the data in the form of a tree-like structure. Breaks down the dataset into smaller subsets and mainly aids in solving classification problems. </p>
+                    </div>
+                </div>
+            </div>
+              </div>
+      </section>
+      <section class="page-section bg-light" id="machinelearning">
+            <div class="container">
+                <div class="text-center">
+                   <h4 style= "color:black;">Comparisons</h4>
+                  <h3 class="section-subheading text-muted">Deciding on a machine learning model</h3>
+                  <div class="row">
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                                <div class="portfolio-hover">
+                                </div>
+                                <img class="img-fluid" src="assets/img/RMSE.png" alt="..." /><div style='text-align:right'></div>
+                            <div class="portfolio-caption">
+                              <br>
+                              <div class="portfolio-caption-heading"><b>Root Mean Squared Error</b></div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div></div> <p class="text-muted">RMSE measures the differences between the actual and predicted values. In general, a lower RMSE is preferred because it means that the actual and predicted values are closer.</p></div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                                <div class="portfolio-hover">
+                                </div>
+                                <img class="img-fluid" src="assets/img/MSE.png" alt="..." /><div style='text-align:right'></div>
+                            <div class="portfolio-caption">
+                              <br>
+                                <div class="portfolio-caption-heading"><b>Mean Squared Error</b></div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div></div> <p class="text-muted">MSE is another measure of the differences between the actual and predicted values. Once again, a lower MSE is preferred because it means that the predicted values are closer to the actual values.</p></div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                                <div class="portfolio-hover">
+                                </div>
+                                <img class="img-fluid" src="assets/img/R2.png" alt="..." /><div style='text-align:right'></div>
+                            <div class="portfolio-caption">
+                              <br>
+                                <div class="portfolio-caption-heading"><b>R Squared</b></div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div></div>
+                      <p class="text-muted">R<sup>2</sup> is a decimal value that predicts what proportion of the variation in the target can be explained by the features. A higher R<sup>2</sup> value is preferred because it means that a greater proportion of values can be predicted.</p>
+                    </div>
+                  </div>
+                      </div>
+                </div>
+        <p class="text-muted" style= "text-align:center;">These graphs make it clear that the most accurate model for our problem is the <b>linear ridge regression model</b>, as this model has the lower RMSE (2.3) and MAE (0.87) as well as the highest R<sup>2</sup> value (0.6623). </p>
+      </section>
+
+      <!-- Conclusion-->
+      <section class="page-section" id="conclusion">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Conclusion</h2>
+                  <h3 class="section-subheading text-muted">Our findings</h3>
+                  <p class="text-muted">Our results have confirmed that as all our inputs increase, excluding Damage Size and Damage Ratio, the size of the tumor will increase. In addition, we also found that the most accurate machine learning model for our data was the linear ridge regression model, as it had the highest R<sup>2</sup> value. We hope that our findings and our website will help the healthcare industry in the identification and classification of melanoma tumors.</p>
+                </div>
+            </div>
+      </section>
+
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">The brilliant minds behind this project</h3>
+             </div>
+          </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Aarush Admala</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/aarush.jpg" alt="..." />
+                              
+                          <p class="text-muted"> I'm a curious person who likes trying new things</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Felix Andreae</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/Felix.jpeg" alt="..." />
+                            <p class="text-muted">if you are smart you can  play dumb the other way around is harder  </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Jasper Percival Cook</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/jasper.jpeg" alt="..." />
+                            <p class="text-muted">I like programming and playing video games. </p>
+                        </div>
+                    </div>
+                </div>
+              
+          <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Riley Katz</h4>
+                          <img class="mx-auto rounded-circle" src="assets/img/Riley.jpeg" alt="..." />
+                            <p class="text-muted">I work hard and aim for success.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Enzo Martinez</h4>
+                          <img class="mx-auto rounded-circle" src="assets/img/enzo.png" alt="..." />
+                          <p class="text-muted">I know many, many random things</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Malvika Rao</h4>
+                            <img class="mx-auto rounded-circle" src="assets/img/malvika.jpg" alt="..." />
+                            <p class="text-muted">I am neither especially clever nor especially gifted. I am only very, very curious. <br>-Einstein</p>
+                        </div>
+                    </div>
+                </div>
+              <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <h4>Samuel Torres</h4>
+                          <img class="mx-auto rounded-circle" src="assets/img/samuel.jpeg" alt="..." />
+                        <center>  <p class="text-muted">I know that I know nothing <br>- Socrates </p> </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Join AI Camp to make your own machine learning model and website!</p></div>
+                </div>
+        
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div style= "text-align:center;">Copyright &copy; AI Camp 2022</div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Scatter Matrix</h2>
+<!--                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Scatter_Matrix.png" alt="..." /> -->
+                                  <div class="cent-txt">
+                                  <iframe height = 1250, width = 1250, src = 'graphs/scatter_matrix.html'>
+                                  </iframe>
+                                  </div>
+                                    <p> A scatter matrix shows the correlation between all of our variables. It is very useful for getting a bird's-eye-view of our data and seeing which variables have strong correlations. One thing that sticks out with this graph is that none of our values have a particularly strong correlation with tumor size, which makes our task a little more difficult. This graph portrays each factor contributing to the size of each melanoma tumor, or each input, and how they increase or decrease exponentially according to the information from our dataset.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Scatter Plot</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <iframe src="graphs/scatter.html" title="Scatter Plot" height="1250px" width="1250px"></iframe>
+                                    <p>Scatter plots are useful in showing the correlation between two quantitative variables, in this case tumor size and malignant ratio. From this scatter plot, we can see that the correlation between these variables is positive and not very strong/moderately correlated.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Density Heatmap</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <iframe src="graphs/density_heatmap.html" title="Density Heatmap" height="1250px" width="1250px"></iframe>
+                                    <p>This graph describes the amount of tumors that share a certain size and malignant ratio. The brighter squares signify a high number of tumors and the darker squares signify a lower number of tumors.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">3D Model</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <iframe src="graphs/3dGraph-1.html" title="3dGraph1" height="850px" width="1600px"></iframe>
+                                  <iframe src="graphs/3dGraph-2.html" title="3dGraph2" height="850px" width="1600px"></iframe>
+                                    <p>The first graph depicts four values (malignant ratio, exposed area, area mass, and size appearance), and how they relate to one another. The orange and yellow dots signify an increase in size appearance and the purple and blue dots signify a decrease in size appearance. Similarly, the second graph depicts the relationships between four more values (malignant ratio, exposed area, damage size, and tumor size). The orange and yellow dots signify an increase in tumor size and the purple and blue dots signify a decrease in tumor size. </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8"><strong></strong>
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Violin Chart</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <iframe src="graphs/violin.html" title="Violin" height="1250px" width="1250px"></iframe>
+                                    <p>This plot displays one input, damage size, and how often certain values of that input appear. The wider sections of the graph indicate a higher amount of a certain value, and the narrower sections of the graph indicate a lower amount of a certain value.</p> 
+                                 
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Parallel Coordinate Chart</h2>
+                                    
+                                    <iframe src="graphs/parallel.html" title="Parallel" height="1250px" width="1250px"></iframe>
+                                    <p>This chart displays how each input changes as the tumor size increases or decreases. The green lines indicate an increase in tumor size and the red lines indicate a decrease in tumor size.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 7 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Correlation Heatmap</h2>
+                                    
+                                    <iframe src="graphs/corr_heatmap.html" title="CorrHeatmap" height="1250px" width="1250px"></iframe>
+                                    <p>This heatmap is similar to the scatter matrix in the way that it displays relationships between the inputs and outputs. It is unique because of the way in which it displays direct correlations between each value. The lighter colors represent a greater correlation and the darker colors represent a lesser correlation.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Portfolio item 8 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Density Contour</h2>
+                                    
+                                    <iframe src="graphs/contour.html" title="Contour" height="1100px" width="1250px"></iframe>
+                                    <p>On this graph we can see the distibution between the damage size variable and the tumor size, with the colored contours becoming brighter to portray the higher density of tumors at that contour. These two variables seem to be moderately correlated, showing that within a damage size between 75 and 55 there is a very dense group of tumors that lie in a size range of 6.5 and 10.5.  </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Graph
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+ <!--<img class="mx-auto rounded-circle" src="assets/img/team/4.jpg" alt="..." />--><strong></strong>
